@@ -1,6 +1,15 @@
+https://www.youtube.com/watch?v=QKsI0-3gv54 - видео урок
 
 
-создаем приложение на nestJS и ангуляр
+
+03/16.Создаем необходимые сущности 
+04/16.Подключаем базу данных PostgreSQL + TypeORM. Настраиваем связь между таблицами
+05/16. Регистрация пользователя. Валидация данных
+06/16. Авторизация пользователя. Jwt Strategy. Jwt Guard. Защищенные роуты.  
+07/16. Категории. Полный цикл CRUD операций. Получение, удаление, редактирование и создание категорий бюджета.
+08/16. Транзакции + Пагинация. Полный цикл CRUD операций. Получение, удаление, редактирование и создание транзакций.
+09/16. Практикуемся с созданием собственного Guard'a. При удалении проверяем, являемся ли мы автором категории/транзакции.
+
 
 server - nestjs
 typeorm 
@@ -9,7 +18,7 @@ BD - Postgresql
 client  
 
 server  npm run start:dev             -- запуск проекта
-http://localhost:3000/api/profile     --- страница
+http://localhost:3000/api/profile     -- страница
 
 nest g resource user
 rest api    - to choose!
@@ -92,7 +101,8 @@ argon2 - нужен для хэширования данных
 
 
 
-https://www.youtube.com/watch?v=QKsI0-3gv54 - видео урок
+
+
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
